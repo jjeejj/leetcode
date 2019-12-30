@@ -15,7 +15,7 @@ var search = function(nums, target) {
     var height = nums.length -1;
     var mid = 0;
     while (low <= height) {
-        mid = low + (height - low) >> 1;
+        mid = low + Math.ceil((height - low) / 2);
         if (nums[mid] == target) {
             return true;
         };
