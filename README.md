@@ -1,8 +1,9 @@
-# leetcode
+## leetcode
 leetcode 解题思路说明
 
 ### 链表
 
+* [61.旋转链表](./javascript/61.旋转链表.js)
 * [234.回文链表](./javascript/234.回文链表.js)
 * [1290.二进制链表转整数](./javascript/1290.二进制链表转整数.js)
 
@@ -21,14 +22,11 @@ leetcode 解题思路说明
 ### 二分查找
 
 * [81.搜索旋转排序数组-ii](./javascript/81.搜索旋转排序数组-ii.js)
+* [69.x-的平方根](./javascript/69.x-的平方根.js)
 
 ### 贪心算法
 
 * [122.买卖股票的最佳时机-ii](./javascript/122.买卖股票的最佳时机-ii.js)
-
-### 链表
-
-* [61.旋转链表](./javascript/61.旋转链表.js)
 
 ### 数学
 
