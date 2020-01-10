@@ -6,6 +6,7 @@ leetcode 解题思路说明
 * [2.两数相加](./javascript/2.两数相加.js)
 * [61.旋转链表](./javascript/61.旋转链表.js)
 * [83.删除排序链表中的重复元素](./javascript/83.删除排序链表中的重复元素.js)
+* [92.反转链表-ii](./javascript/92.反转链表-ii.js)
 * [203.移除链表元素](./javascript/203.移除链表元素.js)
 * [234.回文链表](./javascript/234.回文链表.js)
 * [876.链表的中间结点](./javascript/876.链表的中间结点.js)
