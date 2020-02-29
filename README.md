@@ -5,6 +5,7 @@ leetcode 解题思路说明
 
 * [2.两数相加](./javascript/2.两数相加.js)
 * [21.合并两个有序链表](./javascript/21.合并两个有序链表.js)
+* [面试题22. 链表中倒数第k个节点](./javascript/面试题22.链表中倒数第k个节点.js)
 * [61.旋转链表](./javascript/61.旋转链表.js)
 * [83.删除排序链表中的重复元素](./javascript/83.删除排序链表中的重复元素.js)
 * [92.反转链表-ii](./javascript/92.反转链表-ii.js)
