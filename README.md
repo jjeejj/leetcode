@@ -43,6 +43,7 @@ leetcode 解题思路说明
 
 * [9.回文数](./javascript/9.回文数.js)
 * [168.Excel表列名称](./javascript/168.Excel表列名称.js)
+* [202.快乐数](./javascript/202.快乐数.js)
 * [504.七进制数](./javascript/504.七进制数.js)
 * [944.删列造序](./javascript/944.删列造序.js)
 * [976.三角形的最大周长](./javascript/976.三角形的最大周长.js)
