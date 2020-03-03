@@ -46,5 +46,17 @@ var merge = function(nums1, m, nums2, n) {
         nums1.splice(0,p2+1, ...nums2.slice(0, p2+1))
     };
 };
+// 递归的解法
+var merge2 = function(A, m, B, n) {
+    if(n==0) {
+        return;
+    };
+    if (m > 0 && A[m-1] >= B[n-1]) {
+        A[m+n-1] = A[--m];
+    } else {
+        A[m+n-1] = B[--n];
+    };
+    merge2(A, m, B, n);
+};
 // @lc code=end
 
