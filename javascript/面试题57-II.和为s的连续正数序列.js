@@ -16,5 +16,28 @@
 **/
 
 var findContinuousSequence = function(target) {
+    var head = 1,  tail = 2; // 滑动窗口的边界,左开右闭区间
+    var sum = 1;
+    var resArr = []; // 返回的值
 
+    while (tail <= Math.ceil((target + 1)/2)) { // 只可能运行到指定值的一半
+        if (sum < target) {
+            sum += tail;
+            tail++;
+        };
+        if (sum > target) {
+            sum -= head;
+            head++;
+        };
+        if (sum == target) {
+            var arr = [], index = 0;
+            for (var i = head; i < tail; i++) {
+                arr[index++] = i;
+            };
+            resArr.push(arr);
+            sum -= head;
+            head++; 
+        };
+    };
+    return resArr;
 };
