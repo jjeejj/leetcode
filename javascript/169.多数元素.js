@@ -38,19 +38,35 @@
 var majorityElement = function(nums) {
     // 排序原数组
     nums.sort((a,b) => a -b);
-    var len = nums.length, midLen = len>>1, pre = nums[0], preIndex = 0;
-    nums.push(null); // 添加一个结尾元素使用
-    console.log("nums", nums)
-    for (var i = 1; i <= len; i++) {
-        if(pre != nums[i]) { // 当前元素不等于上一个元素
-            if ((i - preIndex) > midLen) {
-                return pre;
-            } else {
-                pre = nums[i];
-                preIndex = i;
-            };
+    // var len = nums.length, midLen = len>>1, pre = nums[0], preIndex = 0;
+    // nums.push(null); // 添加一个结尾元素使用
+    // for (var i = 1; i <= len; i++) {
+    //     if(pre !== nums[i]) { // 当前元素不等于上一个元素
+    //         if ((i - preIndex) > midLen) {
+    //             return pre;
+    //         } else {
+    //             pre = nums[i];
+    //             preIndex = i;
+    //         };
+    //     };
+    // };
+    // 由于题目中说一定存在，所以不用自己查找，直接返回 n/2 下标处的值即可
+    return nums[nums.length>>1];
+};
+// 利用投票法解答
+var majorityElement2 = function(nums) {
+    var count = 0, result = nums[0];
+    for(var i = 0; i < nums.length; i++) {
+        if (count == 0) {
+            result = nums[i];
+        };
+        if (nums[i] == result) {
+            count++;
+        } else {
+            count--;
         };
     };
+    return result;   
 };
 // @lc code=end
 
