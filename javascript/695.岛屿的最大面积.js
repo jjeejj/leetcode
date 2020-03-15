@@ -15,16 +15,8 @@ var maxAreaOfIsland = function(grid) {
     for (var i = 0; i < row; i++) {
         for (var j = 0; j < col; j++) {
             if (grid[i][j] == 1) {
-                var stack = [], tempRes = 1;
-                for (var m = 0; m < pointX.length; m++) {
-                    var tempX = i + pointX[m];
-                    var tempY = j + pointY[m];
-                    if (tempX >= 0 && tempX < row && tempY >= 0 && tempY < col) {
-                        stack.push(tempX*col+tempY);
-                        tempRes++;
-                        grid[tempX][tempY] = 0;
-                    };
-                };
+                var stack = [i*col+j], tempRes = 1;
+                grid[i][j] = 0;
                 while(stack.length > 0) {
                     var tempCurr = stack.pop(), tempCurrX = Math.floor(tempCurr / col), 
                     tempCurrY = tempCurr % col;
