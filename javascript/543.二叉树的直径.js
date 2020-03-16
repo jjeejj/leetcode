@@ -45,7 +45,22 @@
  * @return {number}
  */
 var diameterOfBinaryTree = function(root) {
-
+    if (!root) {
+        return 0;
+    };
+    var res = 0;
+    // 计算每个节点的左右深度，即可以得到该节点的路径
+    var depth = function (root) {
+        if (root == null) {
+            return 0;
+        };
+        var left = depth(root.left);
+        var right = depth(root.right);
+        res = Math.max(res, left + right + 1);
+        return Math.max(left , right) + 1;
+    };
+    depth(root);
+    return res - 1 ;
 };
 // @lc code=end
 
