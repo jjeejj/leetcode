@@ -47,6 +47,7 @@ leetcode 解题思路说明
 * [9.回文数](./javascript/9.回文数.js)
 * [168.Excel表列名称](./javascript/168.Excel表列名称.js)
 * [202.快乐数](./javascript/202.快乐数.js)
+* [365.水壶问题](./javascript/365.水壶问题.js)
 * [504.七进制数](./javascript/504.七进制数.js)
 * [836.矩形重叠](./javascript/836.矩形重叠.js)
 * [944.删列造序](./javascript/944.删列造序.js)
