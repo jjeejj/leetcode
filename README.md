@@ -35,6 +35,7 @@ leetcode 解题思路说明
 
 ### 二分查找
 
+* [35.搜索插入位置](/javascript/35.搜索插入位置.js)
 * [81.搜索旋转排序数组-ii](./javascript/81.搜索旋转排序数组-ii.js)
 * [69.x-的平方根](./javascript/69.x-的平方根.js)
 * [162.寻找峰值](./javascript/162.寻找峰值.js)
