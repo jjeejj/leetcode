@@ -65,13 +65,13 @@ leetcode 解题思路说明
 ### 字符串
 
 * [5.最长回文子串](./javascript/5.最长回文子串.js)
-* [208.实现-trie-前缀树](./javascript/208.实现-trie-前缀树.js)
 * [409.最长回文串](./javascript/409.最长回文串.js)
 * [面试题01.06.字符串压缩](./javascript/面试题01.06.字符串压缩.js)
 
 ### 树
 
 * [110.平衡二叉树](./javascript/110.平衡二叉树.js)
+* [208.实现-trie-前缀树](./javascript/208.实现-trie-前缀树.js)
 * [509.斐波那契数](./javascript/509.斐波那契数.js)
 * [543.二叉树的直径](./javascript/543.二叉树的直径.js)
 * [1137.第-n-个泰波那契数](./javascript/1137.第-n-个泰波那契数.js)
