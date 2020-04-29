@@ -61,7 +61,7 @@
  */
 var maxDistance = function(grid) {
     // 使用广度优先遍历的算法
-    var queue = [], row = grid.length, col = grid[0].length, depth = new Map();;
+    var queue = [], row = grid.length, col = grid[0].length, depth = new Map();
     // 遍历所有的陆地
     for (var i = 0; i < row; i++) {
         for (var j = 0; j < col; j++) {
