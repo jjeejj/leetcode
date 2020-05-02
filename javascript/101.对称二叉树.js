@@ -91,7 +91,7 @@ function isSymmetric1(root) {
         var leftNode = queue.shift();
         var rightNode = queue.shift();
         if (leftNode == null && rightNode == null) {
-            return true;
+            continue;
         };
         if (leftNode == null || rightNode == null) {
             return false;
@@ -101,8 +101,8 @@ function isSymmetric1(root) {
         };
         queue.push(leftNode.left);
         queue.push(rightNode.right);
-        queue.push(leftNode.right);
         queue.push(rightNode.left);
+        queue.push(leftNode.right);
     };
     return true;
 };
