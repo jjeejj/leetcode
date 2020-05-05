@@ -72,7 +72,8 @@ leetcode 解题思路说明
 ### 字符串
 
 * [5.最长回文子串](./javascript/5.最长回文子串.js)
-* [8.字符串转换整数-atoi](./javascript/8.字符串转换整数-atoi.js)\
+* [8.字符串转换整数-atoi](./javascript/8.字符串转换整数-atoi.js)
+* [125.验证回文串](./javascript/125.验证回文串.js)
 * [151.翻转字符串里的单词](./javascript/151.翻转字符串里的单词.js)
 * [392.判断子序列](./javascript/392.判断子序列.js)
 * [409.最长回文串](./javascript/409.最长回文串.js)
