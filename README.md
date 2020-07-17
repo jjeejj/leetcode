@@ -157,6 +157,7 @@ leetcode 解题思路说明
 * [70.爬楼梯](./javascript/70.爬楼梯.js)
 * [72.编辑距离](./javascript/72.编辑距离.js)
 * [120.三角形最小路径和](./javascript/120.三角形最小路径和.js)
+* [198.打家劫舍](./javascript/198.打家劫舍.js)
 * [300.最长上升子序列](./javascript/300.最长上升子序列.js)
 * [322.零钱兑换](./javascript/322.零钱兑换.js)
 * [887.鸡蛋掉落](./javascript/887.鸡蛋掉落.js)
