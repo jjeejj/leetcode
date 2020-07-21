@@ -138,6 +138,7 @@ leetcode 解题思路说明
 -   [面试题.归并排序](./javascript/面试题.归并排序.js)
 -   [面试题.快速排序](./javascript/面试提.快速排序.js)
 -   [面试题.插入排序](./javascript/面试题.插入排序.js)
+-   [剑指Offer03.数组中重复的数字](./javascript/剑指Offer03.数组中重复的数字.js)
 
 ### 位运算
 
