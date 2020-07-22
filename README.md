@@ -48,6 +48,7 @@ leetcode 解题思路说明
 -   [69.x-的平方根](./javascript/69.x-的平方根.js)
 -   [162.寻找峰值](./javascript/162.寻找峰值.js)
 -   [367.有效的完全平方数](./javascript/367.有效的完全平方数.js)
+-   [剑指Offer11.旋转数组的最小数字](./javascript/剑指Offer11.旋转数组的最小数字.js)
 
 ### 贪心算法
 
