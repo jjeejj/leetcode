@@ -117,6 +117,8 @@ class Trie {
     }
     return true;
   }
+  // 撒谎某个单词
+  delete(world: string): void {}
 }
 
 /**
