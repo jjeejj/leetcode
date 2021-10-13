@@ -54,11 +54,11 @@ function isAnagram(s: string, t: string): boolean {
   }
   let res: number[] = new Array(26).fill(0);
   for (let i = 0; i < s.length; i++) {
-    res[s.charCodeAt(0) - "a".charCodeAt(0)]++;
+    res[s.charCodeAt(i) - "a".charCodeAt(0)]++;
   }
   for (let j = 0; j < t.length; j++) {
-    res[s.charCodeAt(0) - "a".charCodeAt(0)]--;
-    if (s.charCodeAt(0) - "a".charCodeAt(0) < 0) {
+    res[t.charCodeAt(j) - "a".charCodeAt(0)]--;
+    if (res[t.charCodeAt(j) - "a".charCodeAt(0)] < 0) {
       return false;
     }
   }
