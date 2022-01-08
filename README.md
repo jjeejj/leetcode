@@ -163,6 +163,7 @@ leetcode 解题思路说明
 - [面试题.归并排序](./javascript/面试题.归并排序.js)
 - [面试题.快速排序](./javascript/面试提.快速排序.js)
 - [面试题.插入排序](./javascript/面试题.插入排序.js)
+- [面试题.堆排序](./javascript/面试题.堆排序.js)
 - [剑指 Offer03.数组中重复的数字](./javascript/剑指Offer03.数组中重复的数字.js)
 
 ### 位运算
@@ -198,7 +199,7 @@ leetcode 解题思路说明
 
 ### 堆
 
-- [215.数组中的第 K 个最大元素](./javascript/215.数组中的第K个最大元素.js)
+- [215.数组中的第 K 个最大元素](./typescript/215.数组中的第K个最大元素.js)
 - [703.数据流中的第 K 大元素](./javascript/703.数据流中的第K大元素.js)
 - [面试题 40.最小的 k 个数](./javascript/面试题40.最小的k个数.js)
 
