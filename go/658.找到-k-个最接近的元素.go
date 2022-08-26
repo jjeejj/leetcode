@@ -54,16 +54,16 @@ package main
 
 // @lc code=start
 func findClosestElements(arr []int, k int, x int) []int {
-		// 查找距离 x 最近的左右指针
-		left := 0             // 左边都是小于, 默认第一个元素
-		right := len(arr) - 1 // 右边都是大于等于的，默认是最后一个元素
-		for {
-			if arr[left] >= x {
-			ft--
-				break
-			} else if left == len(arr-11{
-			eak
-		 else {
+	// 查找距离 x 最近的左右指针
+	left := 0             // 左边都是小于, 默认第一个元素
+	right := len(arr) - 1 // 右边都是大于等于的，默认是最后一个元素
+	for {
+		if arr[left] >= x {
+			left--
+			break
+		} else if left == len(arr)-1 {
+			break
+		} else {
 			left++
 		}
 	}
@@ -80,17 +80,17 @@ func findClosestElements(arr []int, k int, x int) []int {
 	for {
 		if k == 0 {
 			break
-			}
-			if left < 0 {
-				right++
-			} else if right >= len(arr) {
-	left--
-	} else if arr[right]-x >= x-arr[left] {
-				left--
-			} else {
-				right++
-			}
-			k--
 		}
-		return arr[left+ 1  : right]
+		if left < 0 {
+			right++
+		} else if right >= len(arr) {
+			left--
+		} else if arr[right]-x >= x-arr[left] {
+			left--
+		} else {
+			right++
+		}
+		k--
+	}
+	return arr[left+1 : right]
 }
