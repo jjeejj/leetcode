@@ -1,3 +1,5 @@
+package main
+
 /*
  * @lc app=leetcode.cn id=662 lang=golang
  *
@@ -72,8 +74,11 @@
  *     Right *TreeNode
  * }
  */
-package main
-
+type TreeNode struct {
+	Val   int
+	Left  *TreeNode
+	Right *TreeNode
+}
 type pair struct {
 	node  *TreeNode
 	index int

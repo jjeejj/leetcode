@@ -1,3 +1,5 @@
+package main
+
 /*
  * @lc app=leetcode.cn id=1470 lang=golang
  *
@@ -61,4 +63,3 @@ func shuffle(nums []int, n int) []int {
 }
 
 // @lc code=end
-

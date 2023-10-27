@@ -1,3 +1,5 @@
+package main
+
 /*
  * @lc app=leetcode.cn id=145 lang=golang
  *
@@ -77,4 +79,3 @@ func postorderTraversal(root *TreeNode) (res []int) {
 }
 
 // @lc code=end
-

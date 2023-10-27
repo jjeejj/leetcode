@@ -1,3 +1,5 @@
+package main
+
 /*
  * @lc app=leetcode.cn id=345 lang=golang
  *
@@ -77,4 +79,3 @@ func reverseVowels(s string) string {
 }
 
 // @lc code=end
-

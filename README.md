@@ -65,6 +65,7 @@ leetcode 解题思路说明
 - [168.Excel 表列名称](./javascript/168.Excel表列名称.js)
 - [202.快乐数](./javascript/202.快乐数.js)
 - [268.缺失数字](./javascript/268.缺失数字.js)
+- [357.计算各个位数不同的数字个数](./go/357.计算各个位数不同的数字个数.go)
 - [365.水壶问题](./javascript/365.水壶问题.js)
 - [504.七进制数](./javascript/504.七进制数.js)
 - [836.矩形重叠](./javascript/836.矩形重叠.js)

@@ -1,3 +1,5 @@
+package main
+
 /*
  * @lc app=leetcode.cn id=347 lang=golang
  *
@@ -47,7 +49,6 @@
  */
 
 // @lc code=start
-package In
 
 func topKFrequent(nums []int, k int) []int {
 	// numsMap := map[int]int{}

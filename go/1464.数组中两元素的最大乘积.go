@@ -1,3 +1,5 @@
+package main
+
 /*
  * @lc app=leetcode.cn id=1464 lang=golang
  *
@@ -50,11 +52,6 @@
  *
  *
  */
-package main
-
-import (
-	fmt
-)
 // @lc code=start
 func maxProduct(nums []int) int {
 	// 维护2 个最大的值
@@ -63,7 +60,7 @@ func maxProduct(nums []int) int {
 	for i := 2; i < len(nums); i++ {
 		temp := nums[i]
 		if temp > first {
-			first,temp = temp,first
+			first, temp = temp, first
 		}
 		if temp > second {
 			second = temp
@@ -73,4 +70,3 @@ func maxProduct(nums []int) int {
 }
 
 // @lc code=end
-
